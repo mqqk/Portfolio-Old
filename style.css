@@ -1,7 +1,10 @@
 /*this will be my css doc*/
 
-header{
-	backround-image:url("images/winter-ridge-ct-jan-2017.jpg");
+body{
+	linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+	background-image:url("images/winter.JPG");
+	background-size:cover;
+	padding:5 0 0 0;
 	
 	
 }
@@ -10,32 +13,103 @@ header h1{
 	text-align:center;
 	color:#000;
 	font-family:Arial;
-	padding-left:120px;
-	padding-top:80px;
+	background-color:rgb(128,128,128);
+	padding:0 0 0 0;
+	opacity:.90;
 	
 }
-
-header nav{
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+nav{
 	border:2px solid #000;
+	font-size:12px;
 	color:#000;
 	float:bottom;
 	font-family:Verdana;
+	text-align:center;
+	background-color:grey;
+	opacity:.90;
 	
 	
 }
-
-body{
-	background-color:rgb(186, 186, 209);
+nav a{
+	text-decoration:none;
+	color:#000;
+	font-family:Futura;
+	margin-right:40px;
 	
+
+}
+nav a:hover{
+	color:rgb(186, 186, 209);
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+	font-family:Futura;
+	font-size:24px;
+	
+}
+a:hover{color:rgb(186,186,209)}
+
+.boxcenter{
+	margin:auto;
+	width:50%;
+	background-color:rgb(128,128,128);
+	padding:3px 3px 3px 3px;
+	font-size:24px;
+	border:10px outset #FFF;
+	border-radius:10px;
+	opacity:.90;
 }
 
 .box{
-	font-family:Arial;
-	background-color:rgb(186,186,209)
-	color:#fff;
+	
+	margin:20px 10%;
+	background-color:rgb(128,128,128);
+	padding:3px 3px 3px 3px;
+	font-size:24px;
+	border:10px outset #FFF;
+	border-radius:10px;
+	opacity:.90;
+	
+}
+
+.box2{
+	
+	background-color:rgb(128,128,128);
+	padding:3px 3px 3px 3px;
+	font-size:24px;
+	border:10px outset #000;
+	border-radius:10px;
+	
+	
+	
+}
+.textcenter{
 	text-align:center;
-	font-size:40px;
-	
-	
+	margin:20px 10%;
+	background-color:rgb(128,128,128);
+	font-size:24px;
+	border:2px outset #fff;
+	border-radius:5px;
+}
+
+main div h2{
+padding-left:80px;
+text-align:center;
+padding-right:120px;	
+}
+main div p{
+	color:#000;
+	font-family:New Century Schoolbook;
+}
+
+footer{
+	background-color:rgb(128,128,128);
 	
 }
