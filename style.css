@@ -1,1 +1,41 @@
 /*this will be my css doc*/
+
+header{
+	backround-image:url("images/winter-ridge-ct-jan-2017.jpg");
+	
+	
+}
+
+header h1{
+	text-align:center;
+	color:#000;
+	font-family:Arial;
+	padding-left:120px;
+	padding-top:80px;
+	
+}
+
+header nav{
+	border:2px solid #000;
+	color:#000;
+	float:bottom;
+	font-family:Verdana;
+	
+	
+}
+
+body{
+	background-color:rgb(186, 186, 209);
+	
+}
+
+.box{
+	font-family:Arial;
+	background-color:rgb(186,186,209)
+	color:#fff;
+	text-align:center;
+	font-size:40px;
+	
+	
+	
+}
