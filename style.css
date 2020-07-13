@@ -97,7 +97,7 @@ a:hover{color:rgb(186,186,209)}
 	
 	
 }
-.textcenter{
+.textmod{/*background and font oragnization for <p>test</p>*/
 	text-align:center;
 	margin-left:0;
 	background-color:rgb(128,128,128);
