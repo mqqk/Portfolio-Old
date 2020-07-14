@@ -53,6 +53,7 @@ body{
 	font-size:24px;
 	border:10px outset #000;
 	border-radius:10px;
+	width:50%;
 	
 	
 	
@@ -80,6 +81,7 @@ img{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
+	
 }
 
 /*nav and link css files*/
