@@ -1,22 +1,24 @@
-<html>
-  <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Portfolio</title>
-	<body style="background-color:powderblue;">
+<!DOCTYPE html>
 
-	<link
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    rel="stylesheet"
-    type="text/css"
-  	/> <!-- normalize.css-->
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	
- </head>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Portfolio</title>
+		<body style="background-color:powderblue;">
+
+		<link
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		rel="stylesheet"
+		type="text/css"
+		/> <!-- normalize.css-->
+		<link href="style.css" rel="stylesheet" type="text/css"/>	
+	</head>
+ 
  <body>
 	<header id="Home">
 		<h1>Welcome to Mick's First Page</h1>
-		<nav>
+		<nav><!--nav area for each section-->
 			<a href="#Home">Home</a>
 			<a href="#About Me">About Me</a>
 			<a href="#Family">Family</a>
@@ -25,56 +27,73 @@
 	</header>
 	<hr>
 	<main>
-		<div>
-			<h2 id="About Me" class="boxcenter">About Me
+		<section><!--nav area for each section-->
+			<h2 id="About Me" class="boxcenter">About Me</h2>
 				<nav>
 					<a href="#Home">Home</a>
-					<a href="#About Me">About Me</a>
+					<a href="#About%20Me">About Me</a>
 					<a href="#Family">Family</a>
 					<a href="#Contact">Contact Info</a>
 				</nav>
-			</h2>
+			
 			<p class="box">I am entering a new and interesting world of computer code and exploration. For the last 14 years I committed myself to public service but in light of recent events, decided a new direction in my life was needed. It is with a heavy heart I made this decision. I enrolled in the Thinkful course officially on July 1st, 2020, and have thoroughly enjoyed the curriculum. It is challenging and interesting. Each day I think about what I could do next to expand my skillset and challange myself.</p>
 			<div class="grouprow">
-				<div><img src="images/workspace" /><p class="textmod">Here is my work space which is comfy!</p>
+				<div><img src="images/workspace" alt="my workspace" /><p class="textmod">Here is my work space which is comfy!</p>
 				</div>
-				<div><img src="images/learningeachday" /> <p class="textmod">This is me giving the thumbs up at my work space! 
+				<div><img src="images/learningeachday" alt="learning each day" /> <p class="textmod">This is me giving the thumbs up at my work space! 
 				</div>
 			</div>
 			<p class="box">I graduated from highschool in 2000 and obtained a degree in Philosophy from NC State. Naturally, I utilized this degree in a career in law enforcement. I kid. My education contributed to my ability to think critically and try to maintain objectivity. This was useful in my career as a law enforcement officer.</p>
-			<p class="box">I joined the Raleigh Police Department in July of 2006. Despite popular belief, training is long and arduous. My training began that July and did not finish until August 2007. Even then, I received guidance from senior leadership and supervisors. I did not feel mostly adept at my job for at least 5 years at which point I felt my skills and determination to excel blossom. I spent the next 9 years constantly training, self-criticizing, and improving.
-		</div>
+			<p class="box">I joined the Raleigh Police Department in July of 2006. Despite popular belief, training is long and arduous. My training began that July and did not finish until August 2007. Even then, I received guidance from senior leadership and supervisors. I did not feel mostly adept at my job for at least 5 years at which point I felt my skills and determination to excel blossom. I spent the next 9 years constantly training, self-criticizing, and improving.</p>
+			<p class="box">I currently live in Clayton, North Carolina, in a peaceful neighborhood away from the hustle and bustle of the city. Returning home each day is like visiting a retreat away from all the stress and troubles of the world. Moving to this area is one of the best decisions of my life.</p>
+		</section>
 		<hr>
-		<div>
-			<h2 id="Family" class="box">Family
+		<section><!--nav area for each section-->
+			<h2 id="Family" class="boxcenter">Family</h2>
 				<nav>
 					<a href="#Home">Home</a>
-					<a href="#About Me">About Me</a>
+					<a href="#About%20Me">About Me</a>
 					<a href="#Family">Family</a>
 					<a href="#Contact">Contact Me</a>
 				</nav>
-			</h2>
+			
 			<p class="box">Family used to mean where I came from and the people with whom I grew up. That changed at some point to and family means something completely different to me now. The bedrock of my family is the love I share with my beautiful wife, Mary. She has helped me become the person I am today. I am not sure what I would have been without her, but I feel reasonably sure I am better person for having her in my life and I would not change a thing. In 2012 and 2015, we added to our family with two boys, Elijah and Eric, respectively. We are very happy.</p>
-			<img class="box2" src="images/family%201.jpg" width="50%"/>
-		</div>
+			<img class="box2" src="images/family%201.jpg" alt="my family" width=50%/>
+			<p class="box">Our favorite things to do as a family are as follows:</p>
+			
+			<div class="box">
+				<h3>Favorite Hobbies</h3>
+				<ol><!--ordered list of fav hobbies-->
+					<li>Kayaking</li>
+					<li>Hiking</li>
+					<li>Animal Crossing</li>
+					<li>Visiting the Mountains</li>
+					<li>Visiting the Beach</li>
+					</ol>
+			</div>
+		</section>
 		<hr>
-		<div>
-			<h2 id="Contact" class="boxcenter"> Contact Me
+		<section><!--nav area for each section-->
+			<h2 id="Contact" class="boxcenter"> Contact Me</h2>
 				<nav>
 					<a href="#Home">Home</a>
-					<a href="#About Me">About Me</a>
+					<a href="#About%20Me">About Me</a>
 					<a href="#Family">Family</a>
 					<a href="#Contact">Contact Me</a>
 				</nav>
-			</h2>
-			<section class="box">
-			<p>Right now I dont have much in the way of reaching out to me. This will change. The following are a list:</p>
 			
-			<p><a href="https://www.facebook.com/ultimick/">My Facebook</a></p>
-			<p><a href="https://twitter.com/ultimick">My Twitter</a></p>
+			<div class="box">
+				<h3>Social Media and Code</h3>
+					<ul>	<!--unordered list of contacts-->		
+						<li><a href="https://www.facebook.com/ultimick/" target="_blank">  My Facebook</a></li>
+						<li><a href="https://twitter.com/ultimick" target="_blank"> My Twitter</a></li>
+						<li><a href="https://github.com/mqqk" target="_blank">  My Github</a></li>
+						<li><a href="https://www.linkedin.com/in/mick-styers-243b271b2/" target="_blank">  Linkedin</a></li>
+					<ul>
+				
 			
-			</section>
-			
+			</div>
+		</section>	
 	</main>
 	
 	<footer>
